@@ -1,42 +1,21 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="maze.css">
 </head>
-<link rel="stylesheet" href="/new/style.css">
+ 
+
 <body>
-  <h2>you want to buy thsi item </h2>
-  <button>yes</button>
-  <button>no</button>
-  <p></p>
+ 
+
+    <p class="para">
+       
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius iste nam ipsa vero, laudantium unde quam quibusdam, eligendi quae blanditiis harum voluptates voluptas molestias tempora quasi quod. Iusto, ut ratione esse, voluptates, quaerat soluta est voluptatum magni accusamus doloribus quis! Molestiae dolores, quam aspernatur eligendi, tenetur, ratione assumenda odio asperiores autem nostrum eaque eum deleniti.
+    </p>
 </body>
-<script>
-
-let res = new Promise((resolve,reject )=>{
-  setTimeout(() => {
-    // resolve(true)
-    reject('hallla')
-  }, 2000);
-})
-let rej = new Promise((resolve,reject )=>{
-  setTimeout(() => {
-   reject(false) 
-  }, 3000);
-})
-
-res.then((val)=>{
-  // console.log('thsi is running',val);
-  console.log(val);
-}, (err=>{
-    console.log('it has error ',err);
-}))
-// res.catch((err)=>{
-//   console.log('have an error ', err);
-// })
-</script>
 
 </html>
